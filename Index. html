@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainul Abideen - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #90EE90; /* Light green */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .bio-section {
+            margin-top: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .social-links a.youtube { background-color: #c4302b; }
+        .social-links a.chatgpt { background-color: #10a37f; }
+        .social-links a.whatsapp { background-color: #25d366; }
+
+        .social-links a.youtube:hover { background-color: #a3221e; }
+        .social-links a.chatgpt:hover { background-color: #0c8a6d; }
+        .social-links a.whatsapp:hover { background-color: #128c7e; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Zainul Abideen</h1>
+        <div class="bio-section">
+            <p>He is a student at Manshau Da’wa College.</p>
+            <p>He is an expert in Malayalam, Arabic, and English languages etc.</p>
+            <p>This website is intended to be helpful for other people.</p>
+            <p>My number: 6235800703</p>
+        </div>
+
+        <div class="social-links">
+            <h2>Connect with Me</h2>
+            <a href="https://www.youtube.com/" class="youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://chat.openai.com/" class="chatgpt" target="_blank" rel="noopener noreferrer">ChatGPT</a>
+            <a href="https://web.whatsapp.com/" class="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+    </div>
+
+</body>
+</html>
